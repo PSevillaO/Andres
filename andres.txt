@@ -9,4 +9,6 @@
   esto se hace con el mismo esquema que hiciste las cards para no tenes que volver a hacer el css.
   vas reemplazando el valor de la card por el valos del objeto.
   tuve que cambien el nombre de las imagenes porque no pueden tener espacios (se que hay una forma de arreglarlo pero es mas facil cambiar el nombre)
+
+- cree un archivo login.js para loguernos 
   
