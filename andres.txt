@@ -11,4 +11,5 @@
   tuve que cambien el nombre de las imagenes porque no pueden tener espacios (se que hay una forma de arreglarlo pero es mas facil cambiar el nombre)
 
 - cree un archivo login.js para loguernos 
+- hice un archivo headers que va en todos las paginas para cargar el user admin o product admin dependiendo que usuario este logueado 
   
