@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Ecommerce</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/search.css">
@@ -20,60 +23,35 @@
     <section id="sect1" class="sect">
         <!-- <video src="/assets/images/videoplayback.webm" autoplay="true" muted="true" loop="true" ></video> -->
         <header class="main-header">
-
             <input class="input-check" type="checkbox" id="check-menu">
-
             <label class="burger-menu" for="check-menu">
-
                 <span class="burger-line"></span>
-
             </label>
-
             <a class="logo-link" href="">
                 <img class="nav-logo" src="/assets/images/guitar-log2.JPG" alt="logo-img">
             </a>
-
-            <nav class="main-nav">
-                <ul class="nav-list">
-
+            <nav class="main-nav" id="main-nav">
+                <ul class="nav-list" id="nav-list"> 
                     <li class="nav-item">
                         <a class="nav-link" href="/index.html">Home</a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/pages/contact/contact.html">Contacto</a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/pages/register/register.html">Register</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pages/login/login.html">Login</a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/pages/about-us/about-us.html">Acerca de</a>
-
                     </li>
                 </ul>
             </nav>
-
-
             <div class="user-menu">
-                <div class="usuario-shop">
-                    <img src="/assets/images/icons8-shopping-cart-48.png" width="25px" alt="">
-                    <img src="/assets/images/icons8-user-64.png" width="25px" alt="">
+                <div class="usuario-shop" id="usuario-shop">
                 </div>
-                <div class="container">
-                    <input class="input-1" type="text" placeholder="Buscar">
-                    <div class="btn">
-                        <i class="fa fa-search"></i>
-                    </div>
-                </div>
-
             </div>
         </header>
+        
         <div class="main-banner">
             <figure class="banner-img-container">
 
@@ -172,6 +150,8 @@
         <script src="/js/inicialData.js"></script>
         <script src="/js/functions.js"></script>
         <script src="/js/main.js"></script>
+        <script src="/js/header.js"></script>
+
 </body>
 
 </html>
