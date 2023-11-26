@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.about-section{
+    background: url(/assets/images/coding_programming_laptop_25.jpg) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 150px 0;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px #666;
+
+}
+.inner-container{
+       width: 55%;
+       float:right;
+       background-color:#f0e9e9;
+       padding: 90px;
+       border: 1px solid transparent;
+    box-shadow: 0 0 30px #666;
+    height: 20rem;
+}
+.inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+@media screen and (max-width: 1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+     .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    .inner-container{
+        width: 100%;
+}
+    
+    
+}
+}
+@media screen and (max-width: 390px){
+    
+    .about-section{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       padding:50px;
+       min-height: 100dvh;
+   .inner-container{
+       padding: 20px;
+      
+}
+   
+   
+}
+
+
+}

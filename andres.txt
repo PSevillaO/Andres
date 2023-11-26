@@ -1,0 +1,12 @@
+- el menu se debe quedar fijo en la parte superior
+
+- hacer dos variables una para usuarios y otra para productos y cargarla en la localstorage
+  esto se hace en la inicialData.js 
+  para los usuarios use los mismos que uso Martin, bueno los mismos que use en mi proyecto tambien (los podes cambiar si queres)
+  para los productos cree un objeto con todos los productos que vos tenes, (tambien podes agregara alguno)   
+
+- Una vez que tenes las variables en el localstorage hay que hacer un js que en mi caso le puse main.js que pinta todas las cards trayendo datos del localstorage
+  esto se hace con el mismo esquema que hiciste las cards para no tenes que volver a hacer el css.
+  vas reemplazando el valor de la card por el valos del objeto.
+  tuve que cambien el nombre de las imagenes porque no pueden tener espacios (se que hay una forma de arreglarlo pero es mas facil cambiar el nombre)
+  
