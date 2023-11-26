@@ -10,9 +10,6 @@ if (loguedUser) {
 
     if (loguedUser.role === 'ADMIN_ROLE') {
 
-        console.log("Tengo un usuario logueado")
-
-
         const adminProductLink = document.createElement("li");  // crea una etiqueta li vacia para producto
         const adminProductLinkA = document.createElement("a"); // creo un link a vacio para producto
         const adminUserLink = document.createElement("li");  // crea una etiqueta li vacia para producto
@@ -20,12 +17,12 @@ if (loguedUser) {
 
 
         // Productos
-        adminProductLinkA.href = '/pages/products.html';
+        adminProductLinkA.href = '/pages/products/products.html';
         adminProductLinkA.innerHTML = "Productos";
         adminProductLinkA.classList.add("nav-link");
         adminProductLink.classList.add("nav-item");
         //Usuarios 
-        adminUserLinkA.href = '/pages/users.html';
+        adminUserLinkA.href = '/pages/users/users.html';
         adminUserLinkA.innerHTML = "Usuarios";
         adminUserLinkA.classList.add("nav-link");
         adminUserLink.classList.add("nav-item");
